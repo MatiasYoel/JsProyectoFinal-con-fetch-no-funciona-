@@ -1,0 +1,178 @@
+nav {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between; }
+.imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #E3D8D6;
+    overflow-x: hidden;
+}
+input{
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #CCD1E4;
+    font-weight: 600;
+}
+.filtro{
+    display: none;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #ffffff;
+}
+.parrafo{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 5px;
+	text-align: center;
+	color: #131212;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:rgb(255, 255, 255);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card {
+	padding: 20px;
+	text-align: center;
+}
+.card  h5{
+	margin-bottom: 1px;
+	font-weight: 1000;
+	color: #3b3434;
+}
+.card p{
+	line-height: 1.8;
+	color: #000000;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 1px;
+}
+.card button{
+	display: inline-block;
+	padding: 8px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #ffffff;
+	border-radius: 50px;
+	transition: all 400ms ease;
+	margin-bottom: 1px;
+}
+.card a:hover{
+	background: #000000;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+.menu{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+	display: flex;
+}
+
+footer div p{
+	font-size: 1.5r;	
+}
+div img{
+	height: 50px;
+}
+section img{
+	height: 150px;
+}
+.bienvenida--subFooter{
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 6fr;
+    font-weight: 500;
+    line-height: 1.2em;
+    font-size: 2.3fr;
+    line-height: 1.7em;
+}
+
+.parrafo{
+	font-weight: 900;
+}
+
+.producto{
+	font-weight: 700;
+}
+.boton{
+	font-weight: 300;
+}
